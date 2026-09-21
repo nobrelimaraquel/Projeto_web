@@ -1,0 +1,43 @@
+/* Define estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilo da seção de destaques */
+.destaques {
+    text-align: center;
+}
+
+/* Container com Flexbox para organizar os itens lado a lado */
+.container {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-around; /* Espaço uniforme entre os itens */
+    margin-top: 20px;
+}
+
+/* Estilo de cada item */
+.item {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25%;
+    cursor: pointer; /* Mostra que é clicável */
+    transition: transform 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.item:hover {
+    transform: scale(1.05);
+    border-color: #007BFF;
+}
+
+/* Área da mensagem interativa */
+#mensagem {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Destaques - Verificação de Fatos</title>
+    <!-- Ligação com o arquivo de estilo externo -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Seção principal de destaques -->
+    <section class="destaques">
+        <!-- Título da seção -->
+        <h2>Destaques: Verificação de Fatos sobre Armas</h2>
+
+        <!-- Container dos itens -->
+        <div class="container">
+            <!-- Cada item é um bloco com mito e verdade -->
+            <div class="item" onclick="mostrarMensagem('Mito: Mais armas sempre significam mais segurança. Verdade: Estudos mostram que maior circulação de armas aumenta riscos de acidentes e violência.')">
+                <h3>Mito 1</h3>
+                <p>Mais armas = mais segurança</p>
+            </div>
+
+            <div class="item" onclick="mostrarMensagem('Mito: Armas impedem crimes de forma eficaz. Verdade: Pesquisas indicam que a presença de armas pode escalar conflitos e não garante prevenção.')">
+                <h3>Mito 2</h3>
+                <p>Armas impedem crimes</p>
+            </div>
+
+            <div class="item" onclick="mostrarMensagem('Mito: Armas são fáceis de controlar com leis simples. Verdade: O controle exige fiscalização rigorosa e políticas públicas integradas.')">
+                <h3>Mito 3</h3>
+                <p>Controle simples é suficiente</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Área para mostrar mensagens interativas -->
+    <div id="mensagem"></div>
+
+    <!-- Ligação com o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
